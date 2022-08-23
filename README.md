@@ -1,21 +1,11 @@
-NGINX FancyIndex Theme
+NGINX 文件服务器自定义主题
 ===
 
-A prettier theme for nginx' fancyindex module. Further details about this excellent
-module can be found at the dev's [github page](https://github.com/aperezdc/ngx-fancyindex).
+原主题作者：[github](https://github.com/TheInsomniac/Nginx-Fancyindex-Theme) 
 
-####NOTE:
-NGX-FANCYINDEX truncates the file name to 50 characters subtracts 3 and then
-appends a "..>" to the truncated name. This can be fixed by recompiling
-NGX-FANCYINDEX after changing line 55 of "ngx_http_fancyindex_module.c":
+插件详见：[github page](https://github.com/aperezdc/ngx-fancyindex).
 
-From:
 
-    #define NGX_HTTP_FANCYINDEX_NAME_LEN 50
-
-To:
-
-    #define NGX_HTTP_FANCYINDEX_NAME_LEN 500 (or some other number greater than 50)
 
 #####Usage:
  - Compile nginx with the fancyindex module.
