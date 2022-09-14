@@ -120,9 +120,11 @@ html, body {
   background: none;
 }
 
-tbody tr:first-child {
+
+/*tbody tr:first-child {
   display: none;
 }
+*/
 
 tr.e {
   background:#f7f7f7;

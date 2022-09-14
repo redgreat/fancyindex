@@ -34,7 +34,7 @@ if (!!(window.history && history.pushState)) {
       var breadcrumbs = '';
       var currentPath = '/';
       for (var i = 0; i < segments.length; i++) {
-        if (segments[i] != '') {
+        if (segments[i] !== '') {
           currentPath += segments[i] + '/';
           breadcrumbs += '<a href="' +  currentPath + '">' + window.unescape(segments[i]) + '<\/a>';
         } else if (segments.length -1 !== i) {
